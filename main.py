@@ -19,8 +19,12 @@ except Exception as E:
     api='ERROR....'
 
 
+city_check=Entry(main)
+city_check.get(cityname)
 
-label=Label(main,text=api).pack()    
+
+
+label=Label(main).pack()    
 
 
 
